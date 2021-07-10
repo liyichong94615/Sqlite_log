@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>946</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Database</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>102</y>
+     <width>1211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="newDbBtn">
+   <property name="geometry">
+    <rect>
+     <x>44</x>
+     <y>22</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/icons8-ios-filled-100.png</normaloff>assets/icons8-ios-filled-100.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>110</y>
+     <width>701</width>
+     <height>527</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="newTblBtn">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/spreadsheet.png</normaloff>assets/spreadsheet.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delDbBtn">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>21</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/icons8-ios-filled-100-2.png</normaloff>assets/icons8-ios-filled-100-2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delTblBtn">
+   <property name="geometry">
+    <rect>
+     <x>419</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/icons8-delete-table-80.png</normaloff>assets/icons8-delete-table-80.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sqlBtn">
+   <property name="geometry">
+    <rect>
+     <x>515</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/Browser_-_Black_Fill-22-512.png</normaloff>assets/Browser_-_Black_Fill-22-512.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refBtn">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/icons8-refresh-480.png</normaloff>assets/icons8-refresh-480.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="dbTree">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>251</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="columnCount">
+    <number>1</number>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QOpenGLWidget" name="openGLWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="runBtn">
+   <property name="geometry">
+    <rect>
+     <x>613</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>assets/iconfinder_run_1167975.png</normaloff>assets/iconfinder_run_1167975.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
